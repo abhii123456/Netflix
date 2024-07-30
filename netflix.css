@@ -1,0 +1,880 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/banner2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 152px;
+}
+nav > div{
+    display: flex;
+}
+nav > #logo > img{
+    width: 40%; 
+    margin: 10%;
+}
+ nav > #signup{
+    display: flex;
+    padding: 20px 30px;
+    gap: 20px;
+}
+nav > #signup > select{
+    height: 30px;
+    padding-left: 35px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+nav > #signup > .fa-language{
+    position: relative;
+    color: white;
+    left: 3rem;
+    top: 5px;
+}
+#signup > button{
+    height: 30px;
+    padding: 0px 10px;
+    background-color: red;
+    border-radius: 5px;
+}
+#signup > button > a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+section > #cent{
+    position: relative;
+    align-items: center;
+    margin: 5%;
+}
+section > #cent > h1{
+    text-align: center;
+    color: white;
+    font-size: 300%;
+}
+section > #cent > h2{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+section >#cent > h3{
+    color: white;
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 0%;
+}
+section > #email-cent{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* margin-bottom: 5%; */
+}
+section > #email-cent > input{
+    background-color: transparent;
+    height: 3rem;
+    width: 25%;
+    border: 2px solid grey;
+    border-radius: 5px;
+    color: white;
+}
+section > #email-cent > button{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    width: 10%;
+}
+#email-cent > button > a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+#tv{
+    display: flex;
+    margin-top: 13rem;
+    background-color: black;
+    justify-content: space-between;
+}
+#tv > #cont{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 17rem;
+    border-top: 8px solid rgb(37, 36, 36);
+    border-bottom: 8px solid rgb(37, 36, 36);
+}
+#tv > #cont > #left{
+    color: white;
+    margin-top: 6rem;
+}
+#tv > #cont > #right >img{
+    position: relative;
+    width: 30rem;
+    z-index: 1;
+}
+#tv > #cont > #right > video{
+    position: relative;
+    width: 24.3rem;
+    top: -18rem;
+    left: 3rem;
+    z-index: 0;
+}
+#tv > #cont > #left > h1{
+   font-size: 3rem;
+}
+#tv > #cont > #left > p{
+    font-size: 1.3rem;
+}
+
+#phone{
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 14rem;
+  background-color: black;
+  border-bottom: 8px solid rgb(37, 36, 36);
+}
+#phone > #ri{
+    color: white;
+    margin-top: 2rem;
+}
+#phone > #ri > h1{
+    font-size: 3rem;
+}
+#phone > #ri > p{
+    font-size: 1.3rem;
+}
+#phone > #le > #img >img{
+    width: 30rem;
+}
+#phone > #le > #text{
+    border: 2px solid #c6c6cc;
+    border-radius: 10px;
+}
+#phone > #le > #text{
+    display: flex;
+    position: relative;
+    background-color: black;
+    top: -25%;
+    left: 22%;
+    width: 55%;
+}
+#phone > #le > #text > #box > img{
+    width: 4rem;
+    padding-left: 10px;
+    padding-top: 5.5px;
+}
+#phone > #le > #text > #name{
+    padding-left: 2px;
+    margin-top: 5%;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+#phone > #le > #text > #name > h3{
+    color: white;
+    margin-bottom: 0%;
+}
+#phone > #le > #text > #name > h4{
+    color: #0071eb;
+    margin-bottom: 0%;
+}
+#phone > #le > #text > #name > img{
+    position: relative;
+    top: 15%;
+    left: 30%;
+    width: 4rem;
+} 
+#phone2{
+    display: none;
+}
+/* #phone2{
+    display: flex;
+    width: 312%;
+    background-color: black;
+    padding: 0rem 0rem;
+    border-bottom:8px solid rgb(37, 36, 36) ;
+}
+#phone2 > #le2{
+    color: white;
+    text-align: center;
+    margin-top: 6rem;
+}
+#phone2 > #le2 > h1{
+    font-size: 2rem;
+    font-weight:bolder;
+}
+#phone2 > #le2 > p{
+    font-size: 1.5rem;
+} 
+#phone2 > #ri2 > #img2 > img{
+    position: relative;
+    width: 27.5rem;
+}
+#phone2 > #ri2 > #text2{
+    border: 2px solid #c6c6c6;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    background-color: black;
+    bottom: 0%;
+    left: 22%;
+    width: 53%;
+}
+#phone2 > #ri2 > #text2 > #box2 > img{
+    width:3rem ;
+    padding-left: 10px;
+    padding-top: 5.5px;
+}
+#phone2 > #ri2 > #text2 > #name2{
+    padding-left: 14px;
+    margin-top: 1%;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+}
+#phone2 > #ri2 > #text2 > #name2 > h3{
+    color: #ffffff;
+    margin-bottom: 0%;
+    font-size: 1rem;
+}
+#phone2 > #ri2 > #text2 > #name2 > h4{
+    color: #0071eb;
+    margin-top: 0%;
+    font-size: 1rem;
+}
+#phone2 > #ri2 > #text2 > #down2 > a{
+    position: absolute;
+    color: #ffffff;
+    font-size: 1.8rem;
+    top: 29%;
+    left: 83%;
+}  */
+
+
+#device > #three{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 14rem;
+    background-color: black;
+    border-bottom: 8px solid rgb(37, 36, 36);
+}
+#device > #three > #davibajuu{
+    color: white;
+    margin-top: 6rem;
+}
+#device > #three > #davibajuu > h1{
+    font-size: 3rem;
+}
+#device > #three > #ujavibajuu > img{
+    position: relative;
+    width: 31rem;
+    z-index: 1;
+}
+#device > #three > #ujavibajuu > video{
+    position: relative;
+    width: 19.3rem;
+    top: -21rem;
+    left: 6rem;
+    z-index: 0;
+}
+/* #child2 >#four2{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 14rem;
+    background-color: black;
+    border-bottom: 8px solid rgb(37, 36, 36); 
+}
+#child2 > #four2 > #davibaju > h1{
+    font-size: 3rem;
+    color: white;    
+}
+#child2 > #four2 > #davibaju > p{
+    font-size: 1.3rem;
+    color: #ffffff;
+}
+#child2 > #four2 > #ujavibaju > img{
+    position: relative;
+    width: 29rem;
+    z-index: 1;
+} */
+#child2{
+    display: none;
+}
+#child > #four{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 14rem;
+    background-color: black;
+    border-bottom: 8px solid rgb(37, 36, 36); 
+}
+#child > #four > #davibaju > img{
+    position: relative;
+    width: 29rem;
+    z-index: 1;
+}
+#child > #four > #ujavibaju > h1{
+    font-size: 4rem;
+    margin-top: 1rem;
+    color: white;    
+}
+#child > #four > #ujavibaju > p{
+    font-size: 1.3rem;
+    color: #ffffff;
+}
+ #faq{
+    width: 80%;
+    margin: auto;
+    color: #ffffff;
+    margin-top: 3rem;
+}
+#faq>h2{
+    text-align: center;
+    font-size: 2rem;
+}
+#faq>.faq-cont >.que{
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d2d2d;
+  padding: 0rem 1rem;
+
+}
+#faq>.faq-cont >.que >h3{
+    font-size: 1.5rem;
+}
+.ans{
+    background-color: #2d2d2d; 
+    padding: 1rem 2rem 1rem 1rem;
+    margin-top: 2px;
+    position: relative;
+    display: none;
+}
+.ans>p{
+    margin: 0;
+    font-size: 1.3rem;
+}
+.faq-cont{
+    margin-top: 7px;
+}
+.faq-cont:hover .ans{
+    display: block;
+}
+#mail-cont > #one >h3{
+    color: white;
+    text-align: center;
+    font-weight: 100;
+}
+#mail-cont > #two{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-bottom: 2px solid rgb(37, 36, 36);
+    padding-bottom: 5rem;
+}
+#mail-cont > #two > input{
+    background-color: transparent;
+    height: 3rem;
+    width: 25%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}
+#mail-cont > #two > button{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    width: 10.5%;
+}
+#mail-cont > #two > button > a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    padding-left: 0px;
+}
+#mail-cont > #two > .fa-angle-right{
+    position: relative;
+    top: 1.1rem;
+    left: 516px;
+    color: white;
+}
+#footer2{
+    display: none;
+}
+footer{
+    margin: 67.5px 126.6px;
+    padding: 0px 45px;
+    justify-content: center;
+}
+footer > #a > li{
+    font-size: 14px;
+    list-style-type: none;
+    color: rgba(255,255,255,0.7);
+    padding-bottom: 11.25px;
+    font-weight: 100;
+}
+footer > #a > li > a{
+    color: rgba(255,255,255,0.7);
+}  
+footer > #b{
+ display: flex;   
+}
+footer > #b > ul> li{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+footer > #b > .slide{
+    padding-left: 12rem;
+}
+footer > #b > ul > li > a{
+    font-size: 13px;
+    color: rgba(255,255,255,0.7);
+    font-weight: 100;
+}
+footer > #c > select{
+    position: relative;
+    height: 30px;
+    padding-left: 35px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 1rem;
+    right: 25px;
+}
+footer > #c > .fa-language{
+    position: relative;
+    color: white;
+    top: 0%;
+    left: 0.8%;
+}
+footer > #d > h5{
+    color: rgba(255,255,255,0.7);
+    font-weight: 100;
+}
+
+@media (max-width:600px){
+    body{
+        background-size: 700%;
+        background-position-x: center;
+        position: relative;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        width: 400%;
+    }
+    nav > div{
+        display: flex;
+    }
+    nav > #logo >img{
+        width: 80%;
+    }
+    nav > #signup{
+        display: flex;  
+        align-items: center;    
+        height: 30px;
+        gap: 20px;
+        margin-top: 30px;
+    }
+    nav > #signup > select{
+        height: 30px;
+        padding-left: 35px;
+        color: white;
+        background-color: transparent;
+        border: 1px solid grey;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+    nav > #signup > select:focus{
+        border: 2px solid white;
+    }
+    nav > #signup > .fa-language{
+        position: relative;
+        color: white;
+        top: 0%;
+        left: 20.5%;
+    }
+    nav > #login > button{
+        height: 30px;
+        padding: 0px 15px;
+        color: white;
+        background-color: red;
+        border: none;
+        border-radius: 5px;
+    }
+    nav > #login > button > a{
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    #main{
+        margin-bottom: 10.1rem;
+        width: 400%;
+    }
+    #main > #cent{
+        position: relative;
+        margin-top: 8%;
+        letter-spacing: 0.5px;
+        align-items: center;
+    }
+    #main > #cent > h1 {
+        font-size: 600%;
+    }
+    #main > #cent > h2 {
+        color: white;
+        text-align: center;
+        font-weight: 200;
+        font-size: 50px;
+    }
+    #main > #cent > h3 {
+        color: white;
+        text-align: center;
+        font-weight: 100;
+        font-size: 50px;
+        padding: 0px 120px;
+    }
+    #email-cent{
+        display: block;
+        text-align: center;
+    }
+    #main > #email-cent > input{
+        height: 10rem;
+        width: 83%;
+        color: white;
+        font-size: 3rem;
+        padding-left: 4rem;
+        border-radius: 15px;
+        margin-top: 0%;
+        margin-bottom: 4%;
+        margin-right: 2%;
+    }
+    #main > #email-cent > button{
+        background-color: red;
+        border: none;
+        border-radius:10px;
+        width: 30%;
+        height: 8rem;
+    }
+    #main > #email-cent > button > a{
+        text-decoration: none;
+        color: white;
+        font-size: 2.3rem;
+        padding-right: 40px;
+        font-weight: 600;
+    }
+    #tv{
+        width: 400%;
+    }
+    #tv > #cont{
+        display: block;
+        width: 400%;
+        padding: 0rem 0rem;
+        padding-bottom: 8rem;
+        background-color: black;
+        border-top: 8px solid rgb(37, 36, 36);
+        border-bottom:8px solid rgb(37, 36, 36) ;
+    }
+    /* #tv{
+        width: 86%;
+        display: block;
+
+    } */
+        #tv > #cont > #left{
+        color: white;
+        margin-top: 13rem;
+        text-align: center;
+    }
+        #tv > #cont > #left > h1{
+        font-size: 6rem;
+        font-weight:bolder;
+    }
+        #tv > #cont > #left > p{
+        font-size: 2.8rem;
+    }
+     #tv > #cont > #right > img{
+        position: relative;
+        left: 40px;
+        width: 84rem;
+        z-index: 1;
+        margin-top: 0%;
+    }
+        #tv > #cont > #right > video{
+        position: absolute;
+        width: 61.6rem;
+        top:123rem ;
+        left:13rem ;
+        z-index: 0;
+    }
+    #phone{
+        display: none;
+    }
+    #phone2{
+        display: block;
+        width: 402%;
+        padding: 0rem 0rem;
+        border-bottom:8px solid rgb(37, 36, 36) ;
+    }
+    #phone2 > #le2{
+        color: white;
+        text-align: center;
+        margin-top: 6rem;
+    }
+    #phone2 > #le2 > h1{
+        font-size: 6rem;
+        font-weight:bolder;
+    }
+    #phone2 > #le2 > p{
+        font-size: 2.8rem;
+    } 
+    #phone2 > #ri2 > #img2 > img{
+        position: relative;
+        width: 85.5rem;
+    }
+    #phone2 > #ri2 > #text2{
+        border: 2px solid #c6c6c6;
+        border-radius: 40px;
+        display: flex;
+        position: relative;
+        background-color: black;
+        bottom: 0%;
+        left: 22.3%;
+        width: 37%;
+    }
+    #phone2 > #ri2 > #text2 > #box2 > img{
+        width:10rem ;
+        padding-left: 10px;
+        padding-top: 5.5px;
+    }
+    #phone2 > #ri2 > #text2 > #name2{
+        padding-left: 40px;
+        margin-top: 5%;
+        font-size: 30px;
+        font-weight: 100;
+        letter-spacing: 0.5px;
+    }
+    #phone2 > #ri2 > #text2 > #name2 > h3{
+        color: #ffffff;
+        margin-bottom: 0%;
+    }
+    #phone2 > #ri2 > #text2 > #name2 > h4{
+        color: #0071eb;
+        margin-top: 0%;
+    }
+    #phone2 > #ri2 > #text2 > #down2 > img{
+        position: relative;
+        top: 25%;
+        left: 40%;
+        width: 7.5rem;
+    }
+    #device > #three{
+        display: block;
+        width: 400%;
+        padding: 3rem 0rem;
+        border-bottom:8px solid rgb(37, 36, 36) ;
+    }
+    #device > #three > #davibajuu{
+        color: white;
+        text-align: center;
+        margin-top: 6rem;
+    }
+    #device > #three > #davibajuu > h1{
+        font-size: 6rem;  
+    }
+    #device > #three > #davibajuu > p{
+        font-size: 2.8rem;
+    }
+    #device > #three > #ujavibajuu > img{
+        position: relative;
+        width: 85rem;
+        z-index: 1;
+    }
+    #device > #three > #ujavibajuu > video{
+        position: absolute;
+        width: 56.3rem;
+        top:332rem ;
+        left:14rem ;
+        z-index: 0;
+    }
+    #child{
+        display: none;
+    }
+    #children2{
+        display: block;
+    }
+    #children2 > #contfour2{
+        width: 312%;
+        padding: 3rem 0rem;
+        border-bottom:8px solid rgb(37, 36, 36) ;
+    }
+    #children2 > #contfour2 > #loft2{
+        color: white;
+        text-align: center;
+        margin-top: 6rem;
+    }
+    #children2 > #contfour2 > #loft2 > h1{
+        font-size: 6rem;
+        font-weight:bolder;
+    }
+    #children2 > #contfour2 > #loft2 > p{
+        font-size: 2.8rem;
+    } 
+    #children2 > #contfour2 > #roight2 > img{
+        width: 85.5rem;
+    }
+    #faq{
+        width: 402%;
+        margin: auto;
+        color: #ffffff;
+        padding-top: 1rem;
+    }
+    .faq-cont{
+        margin-top: 7px;
+    }
+    #faq > h2{
+        text-align: center;
+        font-size: 6rem;
+        padding: 0rem 3rem;
+    }
+    #faq > .faq-cont >.que{
+        display: flex;
+        justify-content: space-between;
+        background-color: #2d2d2d;
+        padding: 0rem 1rem;
+    }
+    #faq > .faq-cont >.que > h3{
+        font-size: 3.5rem;
+    }
+    .ans{
+        background-color: #2d2d2d;
+        padding: 1rem 2rem 1rem 1rem;
+        margin-top: 2px;
+        position: relative;
+        display: none;
+    }
+    .ans > p{
+        margin: 0%;
+        font-size: 3rem ;
+    }
+    .faq-cont:hover .ans{
+        display: block;
+    }
+    #mail-cont{
+        width: 402%;
+    }
+    #mail-cont > #one > h3{
+        color: white;
+        text-align: center;
+        font-weight: 100;
+        font-size: 50px;
+        padding: 0px 120px;
+    }
+    #mail-cont > #two{
+        display: block;
+        text-align: center;
+        border-bottom: 25px solid rgb(37, 36, 36);
+    }
+    #mail-cont > #two > input{
+        height: 10rem;
+        width: 83%;
+        color: white;
+        font-size: 3rem;
+        padding-left: 4rem;
+        border-radius: 15px;
+        margin-top: 2%;
+        margin-bottom: 4%;
+        margin-right: 2%;
+    }
+    #mail-cont > #two > button{
+        background-color: red;
+        border: none;
+        border-radius:10px;
+        width: 30%;
+        height: 8rem;
+        margin-bottom: 6rem;
+    }
+    #mail-cont > #two > button > a{
+        text-decoration: none;
+        color: white;
+        font-size: 3.3rem;
+        padding-right: 40px;
+    }
+    #mail-cont > #two > .fa-angle-right{
+        position: relative;
+        top: 215.5px;
+        left: 931px;
+        font-size: 2.4rem;
+        color: white;
+    }
+    #foot{
+        display: none;
+    }
+    #footer2{
+        display: block;
+        margin: 80px 0px;
+        padding: 0px 70.5px; 
+        width: 402%;
+    }
+    #footer2 > #a-one > li{
+        font-size: 45px;
+        list-style-type: none;
+        color: rgba(255,255,255,0.7);
+        padding-bottom:60px ;
+        font-weight: 100;
+    }
+    #footer2 > #a-one > li > a{
+        color: rgba(255,255,255,0.7);
+    }
+    #footer2 > #b-one{
+        display: flex;
+    }
+    #footer2 > #b-one > ul{
+        padding-left: 0%;
+    }
+    #footer2 > #b-one > ul > li{
+        list-style-type: none;   
+        padding-bottom: 50px;
+        font-weight: 100;
+    }
+    #footer2 > #b-one > .slide-one{
+        padding-left: 12rem;
+    }
+    #footer2 > #b-one > ul > li > a{
+        font-size: 40px;
+        color: rgba(255,255,255,0.7);
+    }
+    #footer2 > #c-one > select {
+        position: relative;
+        height: 80px;
+        padding-left: 110px;
+        width: 25%;
+        color: white;
+        background-color: transparent;
+        border: 1px solid grey;
+        border-radius: 5px;
+        font-size: 2.8rem;
+        right: 65px;
+    }
+    #footer2 > #c-one > .fa-language{
+        position: relative;
+        color: white;
+        top: 0%;
+        left: 1.8%;
+        font-size: 3rem;
+    }
+    #footer2 > #d-one > h5{
+        color: rgba(255,255,255,0.7);
+        font-size: 2.5rem;
+        font-weight: 100;
+    }
+
+}   
+
